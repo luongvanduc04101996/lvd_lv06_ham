@@ -28,6 +28,18 @@ Tên hàm trong nguyên mẫu và khi khai báo phải giống nhau.
  **Tham số ra**  
  **Tham số vừa vào vừa ra**  
   
+  **Ví dụ**  
+  
+  * Hàm tính giai thừa *  
+  
+  ```  
+  int GiaiThua(int a)
+  {
+   if(a==1) return;
+   else return a*(GiaiThua(a-1));
+  }
+  ```
+  
 ## 3.Hàm và con trỏ
 * Hàm có đối con trỏ (tham chiếu)  
 Nếu đối của hàm là con trỏ kiểu int (float,double,. ) thì tham số thực tương ứng phải là địa chỉ của biến kiểu int (float,double,.).
